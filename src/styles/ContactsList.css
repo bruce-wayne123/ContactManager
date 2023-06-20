@@ -1,0 +1,24 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+  border: 1px solid black;
+}
+
+#headerContainer {
+  display: flex;
+  background-color: aqua;
+  width: 100vw;
+  align-self: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.headerlabel {
+  width: 200px;
+  text-align: center;
+}
