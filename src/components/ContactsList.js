@@ -15,9 +15,13 @@ function ContactsList() {
     });
     return (
         <div id='container'>
+            <div id='contactContainer'>
+                <h3> Add Contact</h3>
+                <img id='addContactImg' src='https://img.icons8.com/?size=512&id=23344&format=png' />
+            </div>
             <div id='headerContainer'>
                 <label className='headerlabel'>Name</label>
-                <label className='headerlabel'> Username</label>
+                <label className='headerlabel'>Username</label>
                 <label className='headerlabel'>Email</label>
                 <label className='headerlabel'>Phone</label>
             </div>
@@ -37,5 +41,4 @@ function ContactsList() {
         </div>
     );
 }
-
 export default ContactsList;
